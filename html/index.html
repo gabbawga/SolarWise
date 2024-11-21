@@ -3,33 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <!-- Links CSS -->
+    <link rel="stylesheet" href="/Css/style.css">
+    <link rel="stylesheet" href="/Css/reset.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <!-- Scripts JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCINviyi8nkumxVcs6vKge4eLKY_1X4D9M&callback=initMap" async defer></script>
+    <script src="/JS/script.js" defer></script>
     <title>SolarWise</title>
 </head>
 <body>
-    <footer>
-        <label for="">Lorem Ipsum</label>
-        <input type="text">
+    <header class="header">
+        <div class="pesquisa" id="pesquisa-container">
+            <input type="text" class="pesquisa-input" id="endereco" placeholder="Digite um Endereço">
+            <button class="pesquisa-button" id="pesquisar-button"> Buscar</button>
+        </div>
+    </header>
 
-        <label for="">Lorem Ipsun</label>
-        <input type="text">
-    </footer>
+    <div id="map"></div>
 
-    <main>
-        <div id="maps">
+    <div class="telhado-data">
+        <div class="box-data">
+            <div>
+                <i class="fa-solid fa-solar-panel"></i>
+                <span>Máximo de painel Solar:</span>
+                <span id="max-paineis"></span>
+            </div>
 
+            <div>
+                <i class="fa-solid fa-sun"></i>
+                <span>Incidencia Solar Anual:</span>
+                <span id="solar-incidencia"></span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-ruler"></i>
+                <span>Área total:</span>
+                <span id="area-total"></span>
+            </div>
+            
         </div>
 
-        <div class="telhado-data">
+        <div class="box-data">
+            <div>
+                <i class="fa-solid fa-leaf"></i>
+                <span>CO2 savings: </span>
+                <span id="co2-savings"></span>
+            </div>
 
+            <div>
+                <i class="fa-solid fa-bolt"></i>
+                <span>Energia Anual:</span>
+                <span id="energia-anual"></span>
+            </div>
+          
+            <div>
+                <i class="fa-solid fa-battery-full"></i>
+                <span>Capacidade Painel:</span>
+                <span id="energia-coberta"></span>
+            </div>
         </div>
-
-        <div class="telhado-data">
-
-        </div>
-    </main>
+    </div>
+<footer class="footer">
+    <span>
+        Compre aqui na <a href="#">Leroy Merlin </a>equipamentos para o seu painel solar
+    </span>
     
+</footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="/JS/script.js" ></script>
 </body>
 </html>

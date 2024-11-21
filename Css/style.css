@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap');
+
+
+/* Footer */
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #383838;
+    box-sizing: border-box;
+    padding: 5px;
+    height: 68px;
+}
+
+.pesquisa{
+    margin: auto 0;
+    color: #FFE102;
+    text-align: center;
+    width: 100%;
+}
+
+
+.pesquisa-button{
+    padding: 10px;
+    font-weight: bold;
+    background-color: #FFE102;
+    border: 3px solid #FFE102;
+    border-radius: 5px;
+}
+
+.pesquisa-input{
+    padding: 10px;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+}
+
+#map{
+    height: 41vh; /* Altura do mapa */
+    width: 100%;   /* Largura do mapa */
+}
+
+.telhado-data{
+    /* background-color: #FFE102 ; */
+    height:48vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+.box-data{
+    background-color: #383838;
+    width: 323px;
+    height: 184px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 15px;
+}
+
+/* Icones */
+.fa-solid{
+    height: 10px;
+    width: 30px;
+    font-size: larger;
+    color: #FFE102;
+}
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #383838;
+    box-sizing: border-box;
+    padding: 5px;
+    height: 68px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: xx-large;
+    color: #FFE102;
+    padding: 15px;
+}
+a{
+    color: #FFE102;
+}
+
+
+
